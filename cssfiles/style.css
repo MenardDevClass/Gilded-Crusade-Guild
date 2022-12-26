@@ -1,3 +1,59 @@
-body{
-    background-color: #808080;
+html{
+    background: #404040;
+    font-family: lato;
+}
+
+header{
+    margin-left: 3%;
+    text-align: center;
+    color: rgb(255, 153, 0);
+}
+header img {
+    width: 15%;
+}
+.socials{
+    z-index: 10000;
+    bottom: 0%;
+    left: 1.5vh;
+    display: flex;
+    flex-direction: column;
+    color: #FF9900;
+    font-size: 2rem;
+    position: fixed;
+}
+
+.socials a:hover {
+color: #808080;
+cursor: pointer;
+}
+
+.ourvision{
+    padding-top:40px;
+    padding-bottom:40px;
+    border-radius: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    font-size:1.6rem;
+    color: #808080;
+    display: block;
+    width: 96%;
+    float: right;
+    margin-bottom: 10px;
+}
+.ourvision h2{
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+.ourvision p{
+    margin: 45px;
+    float: right;
+    display : flex;
+    width: auto;
+    position: relative;
+}
+
+.ourvision img{
+    padding: 10px;
+    max-width: 20%;
+    position: relative;
 }
